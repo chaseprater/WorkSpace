@@ -1,0 +1,27 @@
+   /**
+    * Simple program giving result of a given expression.
+    * 
+    * Project 2
+    * @author Chase Prater - CPSC 1210 - AO1
+    * @version 01-23-22
+    */
+import java.util.Scanner;
+  
+public class Expression {
+ /**
+  *Prints result of an expression.
+  *@param args - not used
+  */
+   public static void main(String[] args) {
+      Scanner userInput = new Scanner(System.in);
+      String name = "";
+      int x, y = 0;
+      double xy = 0;
+      
+      //Prompt user to view expresion:
+      System.out.println("result = ( 10x + 32.6) (5y - 1.567) / xy ");
+      System.out.println("\tx =  ");
+      System.out.println("\ty =  ");
+      System.out.print("result =  ");
+   }
+}
